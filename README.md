@@ -3,8 +3,11 @@
 README
 
 Name: Pratik Sampat
+
 Email: psampat@hawk.iit.edu
+
 Class: ITMD-462-01.15F: Web Site App Development - Assignment 1
+
 
 Assignment 1:
 
