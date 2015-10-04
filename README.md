@@ -1,22 +1,23 @@
-# WebAppDev-Assignment1
+# php-getting-started
 
-Name: Pratik Sampat
-Email: psampat@hawk.iit.edu
-Class: ITMD-462-01.15F: Web Site App Development - Assignment 1
+A barebones PHP app that makes use of the [Silex](http://silex.sensiolabs.org/) web framework, which can easily be deployed to Heroku.
 
+This application supports the [Getting Started with PHP on Heroku](https://devcenter.heroku.com/articles/getting-started-with-php) article - check it out.
 
-Assignment 1:
+## Deploying
 
-Project Description: This project includes two files. index.php and form.php, these two files are a brief overview of what we have covered in the class so far. This includes functions like date/time. It also utilizes GET and POST server requests.  form.php includes one file that handles errors and submission of a form all in one file. First, Last and email address fields are required. The form automatically gives an error if these are not filled out. The form also has the ability to show previous data should a user choose to refresh the page. The form is also secure from HTML/JS injection by escaping special characters and removing extra whitespace.
+Install the [Heroku Toolbelt](https://toolbelt.heroku.com/).
 
-Development Environment: Mac OS X Yosemite Version 10.10.5. Running MAMP version 3.0.7.3. PHP version 5.6.2. Used PHPstorm as primary editor.
+```sh
+$ git clone git@github.com:heroku/php-getting-started.git # or clone your own fork
+$ cd php-getting-started
+$ heroku create
+$ git push heroku master
+$ heroku open
+```
 
-Installation Instructions: Use parameter ‘name’ for GET request on index.php file. Use MAMP/LAMP/WAMP to see index.php and form.php
+## Documentation
 
-Insights and Results: Learned how to truly utilize the date function, extremely powerful functions. Learned the power of nested if statements to make form.php a very versatile page. Experimented with creating my own function called ‘verify’ which would take a parameter and strip whitespace, escape special characters, and strip slashes. Utilized AND statements in logical branches to make my page more functional. 
+For more information about using PHP on Heroku, see these Dev Center articles:
 
-Resources:
-PHP Manual - https://secure.php.net/manual/en/index.php W3schools - http://www.w3schools.com/php/php_form_validation.asp
-
-W3schools helped me to primarily understand how I can structure and validate my form. The PHP manual helped me to learn how to structure a function whether it was to use an existing one or creating my own function.
-
+- [PHP on Heroku](https://devcenter.heroku.com/categories/php)
